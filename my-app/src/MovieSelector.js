@@ -6,7 +6,7 @@
   function MovieSelector({movie, onChange}) {
     return (
       <div className='movie-selector'>
-        <label htmlFor='movie picker'>Choose a movie</label>
+        <label htmlFor='movie picker'>Choose a movie:</label>
         <select name='movie-picker' defaultValue={movie.title} onChange={(e) => {onChange(findMovieByTitle(e.target.value))}}>
           {movies.map((movie) => {
             return (

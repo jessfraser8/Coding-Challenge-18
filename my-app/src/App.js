@@ -1,20 +1,19 @@
 // U09226075
 // App.js
 
-import React, { useState } from 'react';
 import './App.css';
 import RateMovieButton, {UploadButton} from './Buttons.js';
 import MovieSelector from './MovieSelector.js';
-// import { useState } from 'react';
-import { movies } from "./movies.js"
+import {useState} from 'react';
+import {movies} from "./movies.js"
 
 
 
 // Create App.
 function App() {
-  const [movie, setMovie] = useState(movie[0])
+  const [movie, setMovie] = useState(movies[0])
   return (
-    <div className="App">
+    <div className="app-toolbar">
 
       {/* Movie Selector */}
       <div>

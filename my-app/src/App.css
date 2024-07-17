@@ -1,10 +1,54 @@
-.App {
-  text-align: center;
+.app-toolbar {
+  width: 90vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  border: 4px solid gray;
+  background-color: lightgrey;
+  border-radius: 50px;
+  padding: 15px;
+  gap: 50px;
 }
 
-input {
-  
-  width: 30px;
-  height: 30px;
-  color: blue;
-};
+.fill-star {
+  color: gold;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  width: fit-content;
+}
+
+.movie-description {
+  width: 50vw;
+}
+
+.rating-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #414141;
+  border-radius: 20px;
+  padding: 4px;
+}
+
+.upload-button {
+  background-color: #7c7c7c;
+  border-radius: 10px;
+}
+
+.movie-selector {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.rating-set-button {
+  background-color: lightgrey;
+  border-radius: 10px;
+}
